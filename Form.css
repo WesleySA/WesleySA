@@ -1,0 +1,31 @@
+
+button:a{
+	color: rgb(46.3, 29.4, 55.7);
+}
+
+body{
+
+	margin-right: 750px;
+	margin-left: 50px;
+	margin-top: 50px;
+
+	padding-right: 100px 100px;
+	font-family: 'Happy Monkey', cursive;
+    background-image: url("/home/wesley/Desktop/First WD projects/images/hopeimage.jpg");
+    opacity: 0.75;
+
+}
+form{
+	text-decoration-color: black;
+}
+
+form:hover{
+	color: rgb(73, 109, 137);
+
+}
+
+
+
+label[label:form-control]{
+font-family: 'Happy Monkey', cursive;	
+}

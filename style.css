@@ -1,0 +1,94 @@
+
+
+
+
+
+body, html {
+    height: 100%;
+    padding-top: 25px;
+}
+
+
+.jumbotron{
+	color: rgb(99, 156, 200);
+	height: 50px;
+	width: 100%;
+	opacity: 0.5;
+
+
+	{
+
+
+}
+/*.jumbotron:hover{
+background-image: url("/home/wesley/Downloads/background.jpg");*/
+
+
+}
+
+.display-4{
+	color: rgb(119, 156, 140);
+	text-align: center;
+	font-size: 50px;
+}
+.lead{
+	color: rgb(119, 156, 140);
+}
+
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/home/wesley/Downloads/background.jpg");
+
+  display: flex;
+
+  /* Set a specific height */
+  height: 100%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: 'Permanent Marker', cursive;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 57px;
+  color: rgb(99, 156, 200);
+
+}
+
+a{
+
+color: rgb( 99, 156, 200); 
+  font-family: 'Permanent Marker', cursive;
+  font-family: 'Orbitron', sans-serif; 
+
+}
+button{
+
+width: 100%;
+margin-left: 0%;
+margin-right: 45%
+
+}
+button:hover{
+	
+	background-color:rgb(99, 156, 200) ;
+
+}
+
+button[btn-primary]{
+
+margin-left: 50%;
+
+}
